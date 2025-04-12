@@ -14,7 +14,7 @@ body{
     font-size: 20px;
     border-radius: 25px;
   
-    /* Centering */
+   
     position: absolute;
     top: 50%;
     left: 50%;
@@ -54,12 +54,12 @@ label{
    
 }
 img{
-    width: 60px;   /* smaller size */
-    height: auto;  /* maintain aspect ratio */
+    width: 60px;   
+    height: auto;  
     display: block;
-  /* smaller size */
-     /* maintain aspect ratio */
-    display: block;
+  
+     
+
     margin: 0 auto;  
 }
 .cross{
@@ -139,7 +139,5 @@ img{
 }
 
 
-.lists li{
-    display:inline;
 
-}
+
