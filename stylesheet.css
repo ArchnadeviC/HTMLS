@@ -1,0 +1,145 @@
+body{
+    
+    background:   linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("video1.html/image/pint1.jpg");
+
+}
+
+
+.forms {
+    border: solid white;
+    background-color: white;
+    color: black;
+    width: 400px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 25px;
+  
+    /* Centering */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+label{
+    margin-left: 40px;
+    display:block;
+
+  
+}
+
+.forg{
+    margin-left: 40px;
+}
+
+.forms h1{
+    text-align: center;
+}
+.or{
+    margin-left: 40px;
+    margin-bottom: 5px; 
+}
+
+.forms input{
+ width:80%;
+    padding: 10px 15px; 
+    font-size:16px;
+    box-sizing: border-box;  
+    border-radius: 25px;   
+    margin-top: 8px;    
+    margin-bottom: 8px;  
+    margin-left: 40px;
+    margin-right: auto;
+    border: 1px groove lightslategrey;
+   
+}
+img{
+    width: 60px;   /* smaller size */
+    height: auto;  /* maintain aspect ratio */
+    display: block;
+  /* smaller size */
+     /* maintain aspect ratio */
+    display: block;
+    margin: 0 auto;  
+}
+.cross{
+    font-size: 30px;
+}
+
+.img{
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px;
+}
+.forms .emai{
+    margin-bottom: 5px; 
+}
+
+.pass{
+    margin-bottom: 5px; 
+}
+.forg{
+    margin-bottom: 5px; 
+}
+
+.login{ margin-bottom: 5px;
+
+ }    
+
+.forms .or{
+    margin-bottom: 5px; 
+}
+
+.namesfi{
+    margin-bottom: 5px; 
+    display:flex;
+    align-items: center;
+}
+
+.namesse{
+    margin-bottom: 5px; 
+    display:flex;
+    align-items: center;
+}
+
+.name{
+    background-color: #E60023;
+    
+}
+.login ::placeholder{
+    color:white;
+    text-align: center;
+}
+.namesfi .names{
+    
+
+    background-color:	#4267B2
+}
+
+.namesfi i{
+    position:absolute;
+    left:75px;
+    color:white
+}
+
+.namesfi ::placeholder{
+    color:white;
+    text-align: center;
+}
+
+.namesse img{
+    position:absolute;
+    left:75px;
+}
+
+.namesse ::placeholder{
+   
+    text-align: center;
+}
+
+
+.lists li{
+    display:inline;
+
+}
