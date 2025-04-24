@@ -1,11 +1,23 @@
-body{
-    
-    background:   linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("video1.html/image/pint1.jpg");
-
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("video1.html/image/pint1.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  }
 
-.forms {
+  .forms {
     border: solid white;
     background-color: white;
     color: black;
@@ -13,131 +25,185 @@ body{
     padding: 10px;
     font-size: 20px;
     border-radius: 25px;
-  
-   
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
 
-label{
-    margin-left: 40px;
-    display:block;
+  label {
+    display: block;
+  }
 
-  
-}
-
-.forg{
-    margin-left: 40px;
-}
-
-.forms h1{
+  .forms h1 {
     text-align: center;
-}
-.or{
-    margin-left: 40px;
-    margin-bottom: 5px; 
-}
+  }
+  /* .or {
+  margin-left: 40px;
+  margin-bottom: 5px;
+} */
 
-.forms input{
- width:80%;
-    padding: 10px 15px; 
-    font-size:16px;
-    box-sizing: border-box;  
-    border-radius: 25px;   
-    margin-top: 8px;    
-    margin-bottom: 8px;  
-    margin-left: 40px;
+  .forms input {
+    width: 80%;
+    padding: 10px 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     margin-right: auto;
     border: 1px groove lightslategrey;
-   
-}
-img{
-    width: 60px;   
-    height: auto;  
+  }
+  img {
+    width: 60px; /* smaller size */
+    height: auto; /* maintain aspect ratio */
     display: block;
-  
-     
+    margin: 0 auto;
+  }
+  .cross {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: none; /* optional */
+    box-shadow: none; /* optional */
+    cursor: pointer;
+  }
 
-    margin: 0 auto;  
-}
-.cross{
-    font-size: 30px;
-}
-
-.img{
-    display:flex;
-    align-items: center;
-    justify-content: center; 
+  .img {
+    display: flex;
     gap: 10px;
-}
-.forms .emai{
-    margin-bottom: 5px; 
-}
+  }
 
-.pass{
-    margin-bottom: 5px; 
-}
-.forg{
-    margin-bottom: 5px; 
-}
+  .class1 {
+    margin-bottom: 5px;
+    margin-left: 50px;
+  }
 
-.login{ margin-bottom: 5px;
-
- }    
-
-.forms .or{
-    margin-bottom: 5px; 
-}
-
-.namesfi{
-    margin-bottom: 5px; 
-    display:flex;
+  .namesfi {
+    display: flex;
     align-items: center;
-}
+  }
 
-.namesse{
-    margin-bottom: 5px; 
-    display:flex;
+  .namesse {
+    display: flex;
     align-items: center;
+  }
+
+  .name {
+    background-color: #e60023;
+  }
+
+  .namesfi .names {
+    background-color: #4267b2;
+  }
+
+  .namesfi i {
+    position: absolute;
+
+    color: white;
+  }
+
+  .names {
+    width: 80%;
+    padding: 10px 15px;
+  }
+
+  .namesse img {
+    position: absolute;
+  }
+
+  .lists li {
+    display: inline;
+  }
 }
 
-.name{
-    background-color: #E60023;
-    
-}
-.login ::placeholder{
-    color:white;
-    text-align: center;
-}
-.namesfi .names{
-    
-
-    background-color:	#4267B2
+.forms {
+  border: solid white;
+  background-color: white;
+  color: black;
+  width: 400px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 25px;
 }
 
-.namesfi i{
-    position:absolute;
-    left:75px;
-    color:white
+label {
+  display: block;
 }
 
-.namesfi ::placeholder{
-    color:white;
-    text-align: center;
+.forms h1 {
+  text-align: center;
+}
+/* .or {
+  margin-left: 40px;
+  margin-bottom: 5px;
+} */
+
+.forms input {
+  width: 80%;
+  padding: 10px 15px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: auto;
+  border: 1px groove lightslategrey;
+}
+img {
+  width: 60px; /* smaller size */
+  height: auto; /* maintain aspect ratio */
+  display: block;
+  margin: 0 auto;
+}
+.cross {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: none; /* optional */
+  box-shadow: none; /* optional */
+  cursor: pointer;
 }
 
-.namesse img{
-    position:absolute;
-    left:75px;
+.img {
+  display: flex;
+  gap: 10px;
 }
 
-.namesse ::placeholder{
-   
-    text-align: center;
+.class1 {
+  margin-bottom: 5px;
+  margin-left: 50px;
 }
 
+.namesfi {
+  display: flex;
+  align-items: center;
+}
 
+.namesse {
+  display: flex;
+  align-items: center;
+}
 
+.name {
+  background-color: #e60023;
+}
 
+.namesfi .names {
+  background-color: #4267b2;
+}
+
+.namesfi i {
+  position: absolute;
+
+  color: white;
+}
+
+.names {
+  width: 80%;
+  padding: 10px 15px;
+}
+
+.namesse img {
+  position: absolute;
+}
+
+.lists li {
+  display: inline;
+}
