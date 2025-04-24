@@ -60,8 +60,8 @@ body {
     font-size: 20px;
     border: none;
     outline: none;
-    background: none; /* optional */
-    box-shadow: none; /* optional */
+    background: none; 
+    box-shadow: none; 
     cursor: pointer;
   }
 
@@ -113,97 +113,3 @@ body {
   }
 }
 
-.forms {
-  border: solid white;
-  background-color: white;
-  color: black;
-  width: 400px;
-  padding: 10px;
-  font-size: 20px;
-  border-radius: 25px;
-}
-
-label {
-  display: block;
-}
-
-.forms h1 {
-  text-align: center;
-}
-/* .or {
-  margin-left: 40px;
-  margin-bottom: 5px;
-} */
-
-.forms input {
-  width: 80%;
-  padding: 10px 15px;
-  font-size: 16px;
-  box-sizing: border-box;
-  border-radius: 25px;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  margin-right: auto;
-  border: 1px groove lightslategrey;
-}
-img {
-  width: 60px; /* smaller size */
-  height: auto; /* maintain aspect ratio */
-  display: block;
-  margin: 0 auto;
-}
-.cross {
-  font-size: 20px;
-  border: none;
-  outline: none;
-  background: none; /* optional */
-  box-shadow: none; /* optional */
-  cursor: pointer;
-}
-
-.img {
-  display: flex;
-  gap: 10px;
-}
-
-.class1 {
-  margin-bottom: 5px;
-  margin-left: 50px;
-}
-
-.namesfi {
-  display: flex;
-  align-items: center;
-}
-
-.namesse {
-  display: flex;
-  align-items: center;
-}
-
-.name {
-  background-color: #e60023;
-}
-
-.namesfi .names {
-  background-color: #4267b2;
-}
-
-.namesfi i {
-  position: absolute;
-
-  color: white;
-}
-
-.names {
-  width: 80%;
-  padding: 10px 15px;
-}
-
-.namesse img {
-  position: absolute;
-}
-
-.lists li {
-  display: inline;
-}
