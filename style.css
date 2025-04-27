@@ -1,0 +1,78 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+body {
+  background-color: gainsboro;
+}
+.para {
+  padding: 1rem;
+  background-color: grey;
+  color: white;
+}
+.box {
+  background-color: rgb(15, 223, 15);
+  font-size: 3rem;
+  color: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.outerbox {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 20px;
+  grid-template-rows: 100px 200px;
+  grid-auto-rows: 200px;
+  margin: 20px;
+  align-items: end;
+  /* justify-content: start; */
+  justify-items: start2024;
+}
+/* 
+.box1{
+    grid-column: 1/3;
+}
+
+.box3{
+    grid-row:span 2;
+} */
+/*box table */
+
+.table div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background-color: rgb(238, 238, 25);
+  font-size: 20px;
+}
+.table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "h h h"
+    "sb1 m sb2"
+    "f f f";
+  grid-template-rows: 10vh 40vh 10vh;
+}
+
+.header {
+  grid-area: h;
+}
+.sub {
+  grid-area: sb1;
+}
+.main {
+  grid-area: m;
+}
+.anotherone {
+  grid-area: sb2;
+}
+.footer {
+  grid-area: f;
+}
